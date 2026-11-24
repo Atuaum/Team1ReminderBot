@@ -1,6 +1,6 @@
-import assert from "node:assert/strict";
-import remindersCommand from "../src/commands/reminders.js";
-import reminderStore from "../src/helpers/reminderStore.js";
+import { strict as assert } from "node:assert";
+import remindersCommand from "../src/commands/reminders";
+import reminderStore from "../src/helpers/reminderStore";
 
 describe("Reminder sorting and IDs", function () {
   async function getReply(userId) {
